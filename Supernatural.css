@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+}
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+.slide{
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    width: 370px;
+    left: 530px;
+}
+img {
+    position: relative;
+    display: flex;
+    width: 400px;
+    padding-top: 50px;
+    z-index: -1;
+}
+.background-image {
+    position: absolute;
+    background: url(Yebeen/image/assets/mockup.png) no-repeat center;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+li {
+    list-style: none;
+    padding-top: 100px;
+}
+.kind_wrap {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+.kind_wrap > .kind_slider {
+    overflow: hidden;
+}
+.kind_wrap > .kind_slider .slider {
+    display: flex; 
+    transition: 0.5s;
+}
+.kind_wrap > .kind_slider .slider li {
+    float: left;
+}
+.kind_wrap > .kind_slider img {
+    vertical-align: top;
+}
+.kind_wrap .arrow > a.prev {
+    position: absolute;
+    left: 550px;
+    bottom: 230px;
+    z-index: 1000;
+    color: gray;
+    text-decoration-line: none;
+}
+.kind_wrap .arrow > a.next {
+    position: absolute;
+    left: 880px;
+    bottom: 230px;
+    z-index: 1000;
+    color: gray;
+    text-decoration-line: none;
+}
+.arrow{
+    position: relative;
+}
+.footer-text, .text{
+    position: absolute;
+    font-size: 0.5em;
+    color: rgb(111, 111, 111);
+    text-align: center;
+    bottom: 58px;
+}
+.footer-text {
+    position: relative;
+    display: flex;
+    text-align: center;
+    padding-left: 60px;
+    left: 530px;
+    bottom: 180px;
+    z-index: 6;
+}
+.text {
+    position: relative;
+    display: flex;
+    text-align: center;
+    padding-left: 230px;
+    pointer-events: auto;
+    left: 530px;
+    bottom: 190px;
+    z-index: 6;
+}
+.footer-image {
+    position: absolute;
+    width: 370px;
+    z-index: 0;
+}
+.home{
+    display: flex;
+    width: 80px;
+    height: 35px;
+    bottom: 800px;
+    border-radius: 20px;
+}
+.box{
+    position: relative;
+    width: 90px;
+    left: 550px;
+    bottom: 855px;
+    background-color: white;
+    border-radius: 20px;
+}
+.home-image{
+    position: relative;
+    bottom: 42px;
+    left: 10px;
+    z-index: 1000;
+}
+.time{
+    position: relative;
+    width: 13px;
+    height: 13px;
+    left: 790px;
+    bottom: 1000px;
+}
+.music{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    left: 850px;
+    bottom: 990px;
+}
