@@ -1,37 +1,42 @@
 <!doctype html>
 <html lang="ko">
-  <head>
+    <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Newjeans</title>
-    <link rel="stylesheet" href="style.css">
-    <link src="./script.js">
+    <link rel="stylesheet" href="./main.css">
+    <link src="./main.js">
   </head>
   <body>
     <div class="background-image"></div>
     <div class="container">
       <div class="card-style" style="padding-left: 540px; padding-top: 160px;">
         <div class="cards">
+
           <div class="card">
-            <a href="./https://youtu.be/ZncbtRo7RXs">
-              <img src="./Yebeen/image/assets/card-thumb-2.jpg" style=" width: 285px; height: 260px; object-fit: cover;" /></a>
+            <a href="https://youtu.be/ZncbtRo7RXs">
+              <img src="./Yebeen/image/assets/card-thumb-2.jpg" style=" width: 285px; height: 260px; object-fit: cover; z-index: 100;" /></a>
               <div class="card-content">
                 <h4>New Album</h4>
                 <h3>'Supernatural' 발매!</h3>
                 <h5>My feeling's getting deeper <br>'Supernatural' Music Video 보러 가기!</h5>
               </div>
             </div>
+
           </div>
           <div class="card-style" ></div>
             <div class="cards">
+
               <div class="card">
-                <img src="./Yebeen/image/assets/card-thumb.jpg" style="width: 285px; height: 260px; object-fit: cover;" />
+                <a href="./member.html">
+                <img src="./Yebeen/image/assets/card-thumb.jpg" style="width: 285px; height: 260px; object-fit: cover;" /></a>
                 <div class="card-content">
                 <h4>New Video</h4>
                 <h3>How sweet, NewJeans! 🍭</h3>
                 <h5>신곡과 함께 뉴진스 멤버들의 새로운 영상을 <br>확인하세요.</h5>
             </div>
           </div>
+          
         </div>
     <img src="./Yebeen/image/assets/app-bottom.png" class="footer-image" style="padding-top: 514px;"/>
     <div class="footer-text">©2024 ADOR. All Rights Reserved.</div>
@@ -40,21 +45,28 @@
   <div class="detail">
     <img src="./Yebeen/image/assets/app-icon-badge.png"></div>
   <div class="icon">
-    <img src="./Yebeen/image/assets/app-icon-1.png">
-    <img src="./Yebeen/image/assets/app-icon-2.png">
-    <img src="./Yebeen/image/assets/app-icon-3.png">
+    <a href="./howsweet.html" style="width: 50px; height: 50px">
+    <img src="./Yebeen/image/assets/app-icon-1.png" style="width: 50px; height: 50px"></a>
+    <a href="./supernatural.html">
+    <img src="./Yebeen/image/assets/app-icon-2.png"  style="width: 50px; height: 50px"></a>
+    <a href="https://apps.apple.com/kr/app/phoning/id1627432527?mt=8">
+    <img src="./Yebeen/image/assets/app-icon-3.png"  style="width: 50px; height: 50px; z-index: 90;;"></a>
   </div>
   <div class="icon-mini">
-    <img src="./Yebeen/image/assets/sns-icon-1.png">
-    <img src="./Yebeen/image/assets/sns-icon-2.png">
-    <img src="./Yebeen/image/assets/sns-icon-3.png">
-    <img src="./Yebeen/image/assets/sns-icon-4.png">
+    <a href="https://www.youtube.com/c/NewJeans_official">
+    <img src="./Yebeen/image/assets/sns-icon-1.png" style="width: 20px; height: 18px"></a>
+    <a href="https://x.com/NewJeans_ADOR">
+    <img src="./Yebeen/image/assets/sns-icon-2.png" style="width: 20px; height: 18px"></a>
+    <a href="https://www.instagram.com/newjeans_official/">
+    <img src="./Yebeen/image/assets/sns-icon-3.png" style="width: 20px; height: 18px"></a>
+    <a href="https://www.facebook.com/official.newjeans">
+    <img src="./Yebeen/image/assets/sns-icon-4.png" style="width: 20px; height: 18px"></a>
   </div>
   <div class="box">
     <div class="music">
       <img src="./Yebeen/image/assets/music-icon.png" style="position: relative; right: 160px">
       <img src="./Yebeen/image/assets/btn-next.png">
-      <img src="./Yebeen/image/assets/btn-play.png">
+      <img id="stop" onclick="start()" src="./Yebeen/image/assets/btn-play.png" style="width: 40px; height: 40px;">
       <h2>music</h2>
       <h6>NewJeans</h6>
     </div>
@@ -63,5 +75,23 @@
     </div>
   </div>
 </div>
+<p id="clock" style="color: white; position: relative; position: relative; left: 565px; bottom: 755px;"><b>00:00</b></p>
+
+<script>
+    const clock=document.getElementById("clock");
+
+    function getClock(){
+        const date = new Date()
+        const hour = String(date.getHours()).padStart(2,"0");
+        const minutes = String(date.getMinutes()).padStart(2,"0");
+        clock.innerText = `${hour}:${minutes}`;
+    }
+
+    getClock();
+    setInterval(getClock, 1000);
+
+</script>
+
+
 </body>
 </html>
