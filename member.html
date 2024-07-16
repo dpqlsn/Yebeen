@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Newjeans2</title>
+        <link rel="stylesheet" href="./member.css">
+        <link src="./member.js">
+    </head>
+    <body>
+        <div class="background-image">
+            <div class="container">
+                <div class="character">
+                    <a href="./dance.html">
+                    <img src="./Yebeen/image/member/hyein.png"  style="width: 150; height: 150px">
+                    <img src="./Yebeen/image/member/haerin.png" style=" position: relative; width: 150; height: 150px; padding-left: 164px; bottom: 155px;"></div>
+                    <div class="character">
+                        <img src="./Yebeen/image/member/danielle.png">
+                        <img src="./Yebeen/image/member/hanni.png"></div>
+                    <div class="character">
+                        <img src="./Yebeen/image/member/minji.png"></div></a>
+                        <img src="./Yebeen/image/assets/app-bottom.png" class="footer-image"/>
+                        <div class="footer-text">©2024 ADOR. All Rights Reserved.</div>
+                        <div class="text">쿠키사용방침</div>
+                    </div>
+                </div>
+                <img src="./Yebeen/image/assets/status-bar.png" style=" position: relative; width: 80px; right: 640px; bottom: 340px">
+                <div class="music">
+                    <img src="./Yebeen/image/assets/music-icon.png">
+                </div>
+                <div class="box">
+                    <div class="home">
+                </div>
+            </div>
+            <div class="home-image">
+                <a href="./main.html">
+                <img src="./Yebeen/image/assets/swiper-prev.png" style="width:10px; height: 20px; "></a>
+                <p style="position: relative; left: 5px; "><b>Home</b></p>
+            </div>
+        </div>
+    </div>
+</div>
+<p id="clock" style="color: white; position: relative; right: 1080px; bottom: 340px;"><b>00:00</b></p>
+
+<script>
+    const clock=document.getElementById("clock");
+
+    function getClock(){
+        const date = new Date()
+        const hour = String(date.getHours()).padStart(2,"0");
+        const minutes = String(date.getMinutes()).padStart(2,"0");
+        clock.innerText = `${hour}:${minutes}`;
+    }
+
+    getClock();
+    setInterval(getClock, 1000);
+
+</script>
+</body>
+</html>
