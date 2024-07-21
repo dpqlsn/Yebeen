@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="background-image"></div>
-    <img src="./Yebeen/image/assets/app-bottom.png" class="footer-image" style="position: relative; left: 530px; top: 670px;"/>
+    <img src="./image/assets/app-bottom.png" class="footer-image" style="position: relative; left: 530px; top: 670px;"/>
     <div class="footer-text">©2024 ADOR. All Rights Reserved.</div>
     <div class="text">쿠키사용방침</div>
   </div>
@@ -17,7 +17,7 @@
     <div class="home">
         <div class="home-image">
             <a href="./member.html">
-                <img src="./Yebeen/image/assets/swiper-prev.png" style="position: relative; width: 10px; height: 20px; left: 10px; top: 10px;"></a>
+                <img src="./image/assets/swiper-prev.png" style="position: relative; width: 10px; height: 20px; left: 10px; top: 10px;"></a>
                 <p style="position: relative; left: 23px; top: 11px;"><b>Back</b></p>
                 </div>
             </div>
@@ -26,22 +26,22 @@
             <p style="position: relative; top: 10px; left: 15px"><b>Download</b></p>
         </div>
         <div class="time">
-            <img src="./Yebeen/image/assets/status-bar-black.png" style="position: relative; width: 80px; height: 13px; left: 550px; bottom: 50px;">
+            <img src="./image/assets/status-bar-black.png" style="position: relative; width: 80px; height: 13px; left: 550px; bottom: 50px;">
           </div>
           <div class="music">
-            <img src="./Yebeen/image/assets/music-icon.png" style="width: 35px; height: 35px; position: relative; bottom: 160px;">
+            <img src="./image/assets/music-icon.png" style="width: 35px; height: 35px; position: relative; bottom: 160px;">
         </div>
         <div class="icon">
-            <a href="./Yebeen/video/HR_002(walk).mp4">
-            <img src="Yebeen/image/assets/video-icon-1.png" style="position: relative; width: 40px; height: 40px; left: 840px; bottom: 600px;"></a>
-            <a href="./Yebeen/video/HR_002(walk).mp4">
-            <img src="Yebeen/image/assets/video-icon-2.png" style="position: relative; width: 40px; height: 40px; left: 840px; bottom: 595px;"></a>
-            <a href="./Yebeen/video/HR_002(walk).mp4">
-            <img src="Yebeen/image/assets/video-icon-3.png" style="position: relative; width: 40px; height: 40px; left: 840px; bottom: 590px;"></a>
-            <a href="./Yebeen/video/HR_002(walk).mp4">
-            <img src="Yebeen/image/assets/video-icon-4.png" style="position: relative; width: 40px; height: 40px; left: 840px; bottom: 585px;"></a>
-            <a href="./Yebeen/video/HR_002(walk).mp4">
-            <img src="Yebeen/image/assets/video-icon-5.png" style="position: relative; width: 40px; height: 40px; left: 840px; bottom: 580px;"></a>
+            <a href="./video/HR_002(walk).mp4">
+            <img src="./image/assets/video-icon-1.png" style="position: relative; width: 40px; height: 40px; left: 840px; bottom: 600px;"></a>
+            <a href="./video/HR_002(walk).mp4">
+            <img src="./image/assets/video-icon-2.png" style="position: relative; width: 40px; height: 40px; left: 840px; bottom: 595px;"></a>
+            <a href="./video/HR_002(walk).mp4">
+            <img src="./image/assets/video-icon-3.png" style="position: relative; width: 40px; height: 40px; left: 840px; bottom: 590px;"></a>
+            <a href="./video/HR_002(walk).mp4">
+            <img src="./image/assets/video-icon-4.png" style="position: relative; width: 40px; height: 40px; left: 840px; bottom: 585px;"></a>
+            <a href="./video/HR_002(walk).mp4">
+            <img src="./image/assets/video-icon-5.png" style="position: relative; width: 40px; height: 40px; left: 840px; bottom: 580px;"></a>
         </div>
 >
         <p id="clock" style="color: black; position: relative; bottom: 1000px; left: 570px;"><b>00:00</b></p>
