@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!isDown) return;
         e.preventDefault();
         const x = e.pageX - swiperContainer.offsetLeft;
-        const walk = (x - startX) * 2; // Adjust scroll speed
+        const walk = (x - startX) * 2;
         swiperContainer.scrollLeft = scrollLeft - walk;
     });
 });
