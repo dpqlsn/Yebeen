@@ -56,19 +56,5 @@
 
         <p id="clock" style="color: white; position: relative; left: 570px; bottom: 1000px;"><b>00:00</b></p>
 
-        <script>
-            const clock=document.getElementById("clock");
-
-            function getClock(){
-                const date = new Date()
-                const hour = String(date.getHours()).padStart(2,"0");
-                const minutes = String(date.getMinutes()).padStart(2,"0");
-                clock.innerText = `${hour}:${minutes}`;
-            }
-
-            getClock();
-            setInterval(getClock, 1000);
-
-        </script>
     </body>
 </html>
